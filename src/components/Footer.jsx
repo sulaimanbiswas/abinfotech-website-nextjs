@@ -1,5 +1,5 @@
 const Footer = async () => {
-  return <div>Footer</div>;
+  return <div></div>;
 };
 
 export default Footer;

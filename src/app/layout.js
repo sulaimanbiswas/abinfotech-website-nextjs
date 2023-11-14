@@ -18,10 +18,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="dark" className="transition-all">
-      <body
-        className={classNames(roboto.variable, "container mx-auto font-roboto")}
-      >
+    <html lang="en" data-theme="light" className="transition-all">
+      <body className={classNames(roboto.variable, "font-roboto")}>
         <Providers>
           <Header />
           {children}
