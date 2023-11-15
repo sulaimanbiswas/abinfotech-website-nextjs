@@ -7,7 +7,7 @@ export const metadata = {
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-20">
       <Hero />
       <Services />
     </div>
